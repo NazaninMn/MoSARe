@@ -43,6 +43,8 @@ To train the model please run the below scripts:
 
 train_tangle.py --fold 0 --mask_percentage 0.1
 
+## Comparison code
+Find the comparison code in [comparison_code](./comparison_code)
 
 # Acknowledgments
 
