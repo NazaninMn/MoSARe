@@ -44,7 +44,7 @@ To train the model please run the below scripts:
 train_tangle.py --fold 0 --mask_percentage 0.1
 
 ## Comparison code
-Find the comparison code in [comparison_code](./comparison_code)
+Find the comparison code in [comparison_code](./comparison_code). This directory contains the code we used for generating 5-fold CV results for [MCAT](https://github.com/mahmoodlab/MCAT), [ABMIL](https://github.com/AMLab-Amsterdam/AttentionDeepMIL) and [PORPOISE](https://github.com/mahmoodlab/PORPOISE). We utilize the preprocessed datasets for genomic data helpfully provided to us by their respective authors (specifically for MCAT and PORPOISE) and modify the train/val splits based on what we used for MoSARe.
 
 # Acknowledgments
 
