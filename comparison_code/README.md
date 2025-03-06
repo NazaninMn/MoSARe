@@ -4,6 +4,22 @@ We modified code from [PORPOISE](https://github.com/mahmoodlab/PORPOISE) to run 
 
 Extract WSI reps using UNI into directories named lung/kidney/breast. Use the slide names as the names for the .pt files.
 
+```bash
+REPS_DIR
+├── lung
+│   ├── <TCGA_slide_name.pt>
+│   ├── <TCGA_slide_name.pt>
+│   ├── ...
+├── kidney
+│   ├── <TCGA_slide_name.pt>
+│   ├── <TCGA_slide_name.pt>
+│   ├── ...
+├── breast
+│   ├── <TCGA_slide_name.pt>
+│   ├── <TCGA_slide_name.pt>
+├── ...
+```
+
 ## ABMIL
 ### Lung
 ```
