@@ -12,7 +12,7 @@ Preprocessing the corresponding clinical reports is done by using fine-tuned sen
 
 The GMM model is fit over patch embeddings per WSI and sentence embeddings per report using [PANTHER](https://github.com/mahmoodlab/PANTHER) and should be saved as `proto_save_wsi` and `proto_save_text`.
 
-
+```bash
 MoSARe
 ├── ...
 ├── data
@@ -32,6 +32,7 @@ MoSARe
 │   │   ├── feats_pt_wsi
 │   │   ├── rna_all.csv
 ├── ...
+```
 
 
 
