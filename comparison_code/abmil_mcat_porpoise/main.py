@@ -117,7 +117,7 @@ def main(args):
 ### Training settings
 parser = argparse.ArgumentParser(description='Configurations for Survival Analysis on TCGA Data.')
 ### Checkpoint + Misc. Pathing Parameters
-parser.add_argument('--data_root_dir',   type=str, default='/scratch/ss4yd/tcga_reps/', help='Data directory to WSI features (extracted via CLAM')
+parser.add_argument('--data_root_dir',   type=str, default='/scratch/tcga_reps/', help='Data directory to WSI features (extracted via CLAM')
 parser.add_argument('--study_dir',   type=str, default='lung', help='Study Name: {lung, kidney, breast}')
 parser.add_argument('--seed', 			 type=int, default=1, help='Random seed for reproducible experiment (default: 1)')
 parser.add_argument('--k', 			     type=int, default=5, help='Number of folds (default: 5)')
