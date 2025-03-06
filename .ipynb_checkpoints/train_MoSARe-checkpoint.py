@@ -280,26 +280,26 @@ if __name__ == "__main__":
     print("* Setup dataset...")
 
     dataset = MoSAReDataset(
-        feats_dir_wsi='./data/feats_pt_wsi', 
-        rna_dir='./data/rna_all.csv', 
+        feats_dir_wsi='./data/NSCLC/feats_pt_wsi', 
+        rna_dir='./data/NSCLC/rna_all.csv', 
         sampling_strategy=args["sampling_strategy"], 
         n_tokens=args["n_tokens"],
-        local_wsi_dir = './data/proto_save_wsi',     
-        meta_dir= './data/train_fold_'+str( args["fold"])+'.csv',  
-        text_local= './data/proto_save_text/',  
-        text_global= './data/global_text/',  
+        local_wsi_dir = './data/NSCLC/proto_save_wsi',     
+        meta_dir= './data/NSCLC/train_fold_'+str( args["fold"])+'.csv',  
+        text_local= './data/NSCLC/proto_save_text/',  
+        text_global= './data/NSCLC/global_text/',  
         missing_percentage=args['mask_percentage']  
     )
 
     dataset_val = MoSAReDataset(
-        feats_dir_wsi='./data/feats_pt_wsi', 
-        rna_dir='./data/rna_all.csv', 
+        feats_dir_wsi='./data/NSCLC/feats_pt_wsi', 
+        rna_dir='./data/NSCLC/rna_all.csv', 
         sampling_strategy=args["sampling_strategy"], 
         n_tokens=args["n_tokens"],
-        local_wsi_dir = './data/proto_save_wsi',      
-        meta_dir= './data/test_fold_'+str( args["fold"])+'.csv',  
-        text_local= './data/proto_save_text/', 
-        text_global= './data/global_text/',  
+        local_wsi_dir = './data/NSCLC/proto_save_wsi',      
+        meta_dir= './data/NSCLC/test_fold_'+str( args["fold"])+'.csv',  
+        text_local= './data/NSCLC/proto_save_text/', 
+        text_global= './data/NSCLC/global_text/',  
         missing_percentage=args['mask_percentage']   
     )
     

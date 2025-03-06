@@ -15,7 +15,10 @@ class MoSAReDataset(Dataset):
     def __init__(self, feats_dir_wsi, rna_dir, n_tokens, local_wsi_dir, meta_dir,text_local, text_global, missing_percentage, sampling_strategy="random", split="Train"):
         """
         - feats_dir_wsi: str, directory where feat .pt files are stored
-        - rna_dir: str, directory where rna_data .csv files are stored
+        - rna_dir: csv, the csv file containing the RNA-Seq data
+        - global_text: str, directory where Global Text files are stored
+        - proto_save_text: str, directory where local Text files are stored
+        - proto_save_wsi: str, directory where local WSI files are stored
         - n_tokens: int, number of tokens/patches to sample from all features
         - sampling_strategy: str, strategy to sample patches (only "random" available)
         """
