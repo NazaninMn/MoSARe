@@ -1,5 +1,7 @@
 # Commands to run comparison codes
 
+We modified code from [PORPOISE](https://github.com/mahmoodlab/PORPOISE) to run these experiments.
+
 Extract WSI reps using UNI into directories named lung/kidney/breast. Use the slide names as the names for the .pt files.
 
 ## ABMIL
