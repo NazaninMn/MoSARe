@@ -79,13 +79,7 @@ project_root/
     └── rna2.csv
 ```
 ```
-python main.py \
-  --data_root ./data/splits \
-  --rna_path ./data/rna_data1.csv \
-  --lusc_path ./data/rna_data2.csv \
-  --batch_size 128 \
-  --max_epochs 100 \
-  --dropout 0.2
+python main.py --data_root ./data/splits  --rna1_path ./data/rna_data1.csv --rna2_path ./data/rna_data2.csv --batch_size 128 --max_epochs 100 --dropout 0.2
 ```
 
 ## GSCNN
