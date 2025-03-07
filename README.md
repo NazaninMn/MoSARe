@@ -57,6 +57,10 @@ Use this notebook: [text_preprocessing.ipynb](./text_preprocessing.ipynb) to fil
 ## Comparison code
 Find the comparison code in [comparison_code](./comparison_code). This directory contains the code we used for generating 5-fold CV results for [MCAT](https://github.com/mahmoodlab/MCAT), [ABMIL](https://github.com/AMLab-Amsterdam/AttentionDeepMIL) and [PORPOISE](https://github.com/mahmoodlab/PORPOISE). We utilize the preprocessed datasets for genomic data helpfully provided to us by their respective authors (specifically for MCAT and PORPOISE) and modify the train/val splits based on what we used for MoSARe.
 
+## Visualize cross-modal attention scores on text reports.
+
+Refer to this Jupyter notebook: [visualize_and_highlight_report_text.ipynb](./visualize_and_highlight_report_text.ipynb).
+
 # Acknowledgments
 
 This project is based on the following open-source projects. We thank their authors for making the source code publicly available.
