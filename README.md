@@ -55,7 +55,7 @@ Specificially used [train_st.py](https://github.com/AnswerDotAI/ModernBERT/blob/
 Use this notebook: [text_preprocessing.ipynb](./text_preprocessing.ipynb) to filter TCGA reports data.
 
 ## Comparison code
-Find the comparison code in [comparison_code](./comparison_code). This directory contains the code we used for generating 5-fold CV results for [MCAT](https://github.com/mahmoodlab/MCAT), [ABMIL](https://github.com/AMLab-Amsterdam/AttentionDeepMIL) and [PORPOISE](https://github.com/mahmoodlab/PORPOISE). We utilize the preprocessed datasets for genomic data helpfully provided to us by their respective authors (specifically for MCAT and PORPOISE) and modify the train/val splits based on what we used for MoSARe.
+Find the comparison code in [comparison_code](./comparison_code). This directory contains the code we used for generating 5-fold CV results for [SNN](https://github.com/bioinf-jku/SNNs), [BP](https://github.com/mahmoodlab/PathomicFusion), [MCAT](https://github.com/mahmoodlab/MCAT), [ABMIL](https://github.com/AMLab-Amsterdam/AttentionDeepMIL) and [PORPOISE](https://github.com/mahmoodlab/PORPOISE). We utilize the preprocessed datasets for genomic data helpfully provided to us by their respective authors (specifically for MCAT and PORPOISE) and modify the train/val splits based on what we used for MoSARe.
 
 # Acknowledgments
 
