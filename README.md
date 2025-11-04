@@ -84,7 +84,6 @@ https://github.com/NazaninMn/GenGMM
   year={2025},
 }
 
-# Link to the paper
+📄 **Paper:** [OpenAccess PDF](https://openaccess.thecvf.com/content/ICCV2025W/CVAMD/papers/Moradinasab_Towards_Robust_Multimodal_Representation_A_Unified_Approach_with_Adaptive_Experts_ICCVW_2025_paper.pdf)  
 
-[📄 PDF](https://openaccess.thecvf.com/content/ICCV2025W/CVAMD/papers/Moradinasab_Towards_Robust_Multimodal_Representation_A_Unified_Approach_with_Adaptive_Experts_ICCVW_2025_paper.pdf)
 
