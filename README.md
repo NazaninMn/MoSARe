@@ -76,14 +76,15 @@ https://github.com/NazaninMn/GenGMM
 
 # Citation
 
+```bibtex
 @inproceedings{moradinasab2025mosare,
   title={Towards Robust Multimodal Representation: A Unified Approach with Adaptive Experts and Alignment},
   author={Moradinasab, Nazanin and Sengupta, Saurav and Liu, Jiebei and Syed, Sana and Brown, Donald E.},
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
   year={2025},
-}```
+}
 
-# Citation
+# Link to the paper
 
 [📄 PDF](https://openaccess.thecvf.com/content/ICCV2025W/CVAMD/papers/Moradinasab_Towards_Robust_Multimodal_Representation_A_Unified_Approach_with_Adaptive_Experts_ICCVW_2025_paper.pdf)
 
