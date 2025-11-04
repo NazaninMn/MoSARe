@@ -83,6 +83,7 @@ https://github.com/NazaninMn/GenGMM
   booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
   year={2025},
 }
+```
 
 📄 **Paper:** [OpenAccess PDF](https://openaccess.thecvf.com/content/ICCV2025W/CVAMD/papers/Moradinasab_Towards_Robust_Multimodal_Representation_A_Unified_Approach_with_Adaptive_Experts_ICCVW_2025_paper.pdf)  
 
